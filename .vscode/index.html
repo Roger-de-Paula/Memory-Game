@@ -2,9 +2,19 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&family=Space+Mono&display=swap" rel="stylesheet">
     <title>Memory Game</title>
 </head>
 <body>
+    <div class="container">
+        <h1>Welcome to my game <span class="auto-type"></span></h1>
+    </div>
+    <div class="text">
+        <h2>memory-game</h2>
+        <h2>made by: Roger de Paula</h2>
+    </div>
     <main class="memory-game">
         <div class="card" data-card="java">
             <img src="./photos/java.jpg" alt="cardfront" class="card-front">
@@ -57,6 +67,15 @@
         
     </main>
     <script src="./script.js"></script>
-    
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12">
+    </script>
+    <script>
+                var typed = new Typed(".auto-type", {
+            strings: ["Beautiful", "People"],
+            typeSpeed: 150,
+            loop: true
+                })
+    </script>
+
 </body>
 </html>
