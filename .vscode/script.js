@@ -3,6 +3,9 @@ let hasFlippedCard = false;
 let firstCard, secondCard;
 let lockBoard = false;
 
+
+
+
 //flip the card
 function flipCard() {
     if(lockBoard) return;
